@@ -1055,7 +1055,7 @@ gap: 120px;
 
 .footer-card {
     display: flex;
-    
+    justify-content: center;
 }
 
 .footer-text {
