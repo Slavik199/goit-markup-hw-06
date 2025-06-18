@@ -1044,6 +1044,39 @@ padding: 120px 0;
      row-gap: 48px;
 }
 
+.main-footer {
+    padding: 100px 16px;
+}
+
+.footer-logo-social {
+margin: 0;
+gap: 120px;
+}
+
+.footer-card {
+    display: flex;
+    
+}
+
+.footer-text {
+    margin: 0;
+}
+
+.footer-social-list {
+    margin: 0;
+}
+
+.container-logo {
+  margin: 0;
+}
+
+.footer-box {
+    margin-left: 80px;
+}
+
+
+
+
 
 
 }
