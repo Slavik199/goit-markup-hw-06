@@ -357,14 +357,17 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-section {
-  background: rgba(46, 47, 66, 0.7);
- padding: 72px 0;
- background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
- background-repeat: no-repeat;
- background-position: center;
- background-size: cover;
- margin: 0 auto;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    image-set(url(../images/hero-mob-min.jpg) 1x,
+              url(../images/hero-mob@2x-min.jpg) 2x);
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 72px 0;
 }
+
+
 
 .hero-title {
 font-family: "Roboto", sans-serif;
@@ -1056,8 +1059,10 @@ fill: #ffffff;
 }
 
 .hero-section {
-  padding: 112px 0;
-   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-tab-1x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    image-set(url(../images/hero-tab-min.jpg) 1x,
+              url(../images/hero-tab@2x-min.jpg) 2x);
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -1184,7 +1189,9 @@ gap: 24px;
 
 @media screen and (min-width: 1158px) {
 .hero-section {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    image-set(url(../images/hero-desc-min.jpg) 1x,
+              url(../images/hero-desc@2x-min.jpg) 2x);
   padding: 188px 0;
 }
 
